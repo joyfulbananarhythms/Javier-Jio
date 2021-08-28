@@ -1,0 +1,26 @@
+.profile p {
+    background-color: purple;
+    color:white;
+}
+.friends {
+    background-color: red;
+    color: black;
+}
+
+.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fffaff;
+    color: #ff0b0b;
+    padding: 5px;
+    box-shadow: 5px 5px 10px #000000;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.margin {
+    margin-left: 10px;
+}
